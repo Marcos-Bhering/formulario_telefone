@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./imagem/formulario.png" alt="formulario" >
+            <h1>Formulário</h1>
+        </header>
+        <form id="form-formulario">
+            <label for="Nome">Nome: </label>
+            <input type="text" id="Nome" required placeholder="Digite o seu nome"></input>
+            <label for="Telefone">Telefone:</label>
+            <input type="tell" id ="telefone" required placeholder="digite o seu telefone" min="10" max="13">
+            <button type="submit">Enviar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr> 
+                    <th>Nome:</th>
+                    <th>telefone:</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
